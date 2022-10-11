@@ -1,0 +1,14 @@
+C:\Users\Juan Pablo Turner\Desktop\e-commerce\e-commerce\bin\Debug\netcoreapp3.1\e-commerce.exe
+C:\Users\Juan Pablo Turner\Desktop\e-commerce\e-commerce\bin\Debug\netcoreapp3.1\e-commerce.deps.json
+C:\Users\Juan Pablo Turner\Desktop\e-commerce\e-commerce\bin\Debug\netcoreapp3.1\e-commerce.runtimeconfig.json
+C:\Users\Juan Pablo Turner\Desktop\e-commerce\e-commerce\bin\Debug\netcoreapp3.1\e-commerce.runtimeconfig.dev.json
+C:\Users\Juan Pablo Turner\Desktop\e-commerce\e-commerce\bin\Debug\netcoreapp3.1\e-commerce.dll
+C:\Users\Juan Pablo Turner\Desktop\e-commerce\e-commerce\bin\Debug\netcoreapp3.1\e-commerce.pdb
+C:\Users\Juan Pablo Turner\Desktop\e-commerce\e-commerce\obj\Debug\netcoreapp3.1\e-commerce.csproj.AssemblyReference.cache
+C:\Users\Juan Pablo Turner\Desktop\e-commerce\e-commerce\obj\Debug\netcoreapp3.1\e-commerce.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Juan Pablo Turner\Desktop\e-commerce\e-commerce\obj\Debug\netcoreapp3.1\e-commerce.AssemblyInfoInputs.cache
+C:\Users\Juan Pablo Turner\Desktop\e-commerce\e-commerce\obj\Debug\netcoreapp3.1\e-commerce.AssemblyInfo.cs
+C:\Users\Juan Pablo Turner\Desktop\e-commerce\e-commerce\obj\Debug\netcoreapp3.1\e-commerce.csproj.CoreCompileInputs.cache
+C:\Users\Juan Pablo Turner\Desktop\e-commerce\e-commerce\obj\Debug\netcoreapp3.1\e-commerce.dll
+C:\Users\Juan Pablo Turner\Desktop\e-commerce\e-commerce\obj\Debug\netcoreapp3.1\e-commerce.pdb
+C:\Users\Juan Pablo Turner\Desktop\e-commerce\e-commerce\obj\Debug\netcoreapp3.1\e-commerce.genruntimeconfig.cache

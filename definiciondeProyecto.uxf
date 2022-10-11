@@ -1,0 +1,23 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>9</zoom_level><element><id>UMLClass</id><coordinates><x>450</x><y>72</y><w>117</w><h>81</h></coordinates><panel_attributes>Persona
+--
+- nombre
+- apellido
+- mail
+- dni</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>378</x><y>252</y><w>90</w><h>117</h></coordinates><panel_attributes>Vendedor</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>504</x><y>252</y><w>117</w><h>117</h></coordinates><panel_attributes>Cliente</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>207</x><y>369</y><w>90</w><h>81</h></coordinates><panel_attributes>Producto
+--
+- precio
+- nombre
+- descripcion
+- idNumerico</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>504</x><y>486</y><w>153</w><h>45</h></coordinates><panel_attributes>CarritoDeCompra
+--
+- idNumericoDeCompra</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>486</x><y>144</y><w>81</w><h>126</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;70;120</additional_attributes></element><element><id>Relation</id><coordinates><x>414</x><y>144</y><w>81</w><h>126</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>70;10;10;120</additional_attributes></element><element><id>Relation</id><coordinates><x>549</x><y>360</y><w>117</w><h>144</h></coordinates><panel_attributes>lt=&lt;-
+m1=1
+- carritoDeCompra</panel_attributes><additional_attributes>10;140;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>243</x><y>441</y><w>279</w><h>81</h></coordinates><panel_attributes>lt=&lt;-
+m1=*
+- productosAComprar</panel_attributes><additional_attributes>10;10;10;70;290;70</additional_attributes></element><element><id>Relation</id><coordinates><x>207</x><y>252</y><w>189</w><h>135</h></coordinates><panel_attributes>lt=&lt;-
+m1=*
+- productosAVender</panel_attributes><additional_attributes>50;130;50;20;190;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>99</x><y>90</y><w>90</w><h>27</h></coordinates><panel_attributes>App</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>180</x><y>90</y><w>288</w><h>45</h></coordinates><panel_attributes>lt=&lt;-
+- usuarios
+m1=*</panel_attributes><additional_attributes>300;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>108</x><y>108</y><w>117</w><h>315</h></coordinates><panel_attributes>lt=&lt;-
+- productos
+m1=*</panel_attributes><additional_attributes>110;320;10;320;10;10</additional_attributes></element></diagram>
