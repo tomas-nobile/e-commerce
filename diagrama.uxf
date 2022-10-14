@@ -1,0 +1,29 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>11</zoom_level><element><id>UMLClass</id><coordinates><x>539</x><y>11</y><w>143</w><h>99</h></coordinates><panel_attributes>Persona
+--
+- dni: int
+- nombre: String
+- apellido: String
+- mail: String
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>429</x><y>231</y><w>132</w><h>143</h></coordinates><panel_attributes>Vendedor
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>605</x><y>231</y><w>143</w><h>143</h></coordinates><panel_attributes>Cliente
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>242</x><y>374</y><w>154</w><h>110</h></coordinates><panel_attributes>Producto
+--
+- idProducto: int
+- precio: double
+- nombre: String
+- descripcion: String
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>605</x><y>517</y><w>187</w><h>55</h></coordinates><panel_attributes>CarritoDeCompra
+--
+- idNumericoDeCompra: int</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>583</x><y>99</y><w>99</w><h>154</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;70;120</additional_attributes></element><element><id>Relation</id><coordinates><x>495</x><y>99</y><w>99</w><h>154</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>70;10;10;120</additional_attributes></element><element><id>Relation</id><coordinates><x>660</x><y>363</y><w>143</w><h>176</h></coordinates><panel_attributes>lt=&lt;-
+m1=1
+- carritoDeCompra</panel_attributes><additional_attributes>10;140;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>286</x><y>473</y><w>341</w><h>88</h></coordinates><panel_attributes>lt=&lt;-
+m1=*
+- productosAComprar</panel_attributes><additional_attributes>10;10;10;60;290;60</additional_attributes></element><element><id>Relation</id><coordinates><x>231</x><y>231</y><w>220</w><h>165</h></coordinates><panel_attributes>lt=&lt;-
+m1=*
+- productosAVender</panel_attributes><additional_attributes>60;130;60;20;180;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>110</x><y>33</y><w>110</w><h>33</h></coordinates><panel_attributes>App</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>209</x><y>33</y><w>352</w><h>55</h></coordinates><panel_attributes>lt=&lt;-
+- usuarios
+m1=*</panel_attributes><additional_attributes>300;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>121</x><y>55</y><w>143</w><h>385</h></coordinates><panel_attributes>lt=&lt;-
+- productos
+m1=*</panel_attributes><additional_attributes>110;320;10;320;10;10</additional_attributes></element><element><id>Text</id><coordinates><x>121</x><y>495</y><w>187</w><h>77</h></coordinates><panel_attributes>Por el momento probar el carrito vendiendo un producto
+style=wordwrap</panel_attributes><additional_attributes></additional_attributes></element></diagram>
