@@ -6,11 +6,11 @@ namespace e_commerce
 {
     class Usuario
     {   // de esta clase usuario derivan las clases Vendedor y Cliente
-        private int dni { get; set; }
-        private String nombre { get; set; }
-        private String apellido { get; set; }
-        private String mail { get; set; }
-        private int telefono { get; set; }
+        public int dni { get; set; }
+        public String nombre { get; set; }
+        public String apellido { get; set; }
+        public String mail { get; set; }
+        public int telefono { get; set; }
         public Usuario()
         {   // constructor por defecto sin valores
             this.dni = 0;

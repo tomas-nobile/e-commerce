@@ -6,7 +6,8 @@ namespace e_commerce
 {
     class CarritoDeCompras
     {
-        private int idNumericoDeCompra { get; set; }
+        public int idNumericoDeCompra { get; set; }
+        public Producto producto { get; set; }
         public CarritoDeCompras()
         {
             this.idNumericoDeCompra = 0;

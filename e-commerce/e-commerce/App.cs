@@ -8,6 +8,8 @@ namespace e_commerce
                * consultar que tipo de "lista" utilizar o de que modo utilizaremos Entity framework
                */
 
+        // esta clase NO EXISTE, los productos van directos a la base de datos
+
     {
     }
 }

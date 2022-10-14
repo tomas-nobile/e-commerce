@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Juan Pablo Turner\\Desktop\\e-commerce\\e-commerce\\e-commerce.csproj",
+      "projectUniqueName": "C:\\Users\\Juan Pablo Turner\\Desktop\\2do Cuatrimestre\\PNT1\\e-commerce\\e-commerce\\e-commerce\\e-commerce.csproj",
       "projectName": "e-commerce",
-      "projectPath": "C:\\Users\\Juan Pablo Turner\\Desktop\\e-commerce\\e-commerce\\e-commerce.csproj",
+      "projectPath": "C:\\Users\\Juan Pablo Turner\\Desktop\\2do Cuatrimestre\\PNT1\\e-commerce\\e-commerce\\e-commerce\\e-commerce.csproj",
       "packagesPath": "C:\\Users\\Juan Pablo Turner\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Juan Pablo Turner\\Desktop\\e-commerce\\e-commerce\\obj\\",
+      "outputPath": "C:\\Users\\Juan Pablo Turner\\Desktop\\2do Cuatrimestre\\PNT1\\e-commerce\\e-commerce\\e-commerce\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
