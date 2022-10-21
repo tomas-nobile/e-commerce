@@ -6,15 +6,31 @@ namespace e_commerce
 {
     class CarritoDeCompras
     {
-        public int idNumericoDeCompra { get; set; }
+        public int id  { get; set; }
         public Producto producto { get; set; }
-        public CarritoDeCompras()
+
+
+
+        public void agregarProducto(Producto producto)
         {
-            this.idNumericoDeCompra = 0;
+            using (var context = new ECommerceContext())
+            {
+                this.producto= producto;
+ 
+                context.CarritoDeCompras.Update(this);
+                context.SaveChanges();
+            }
         }
-        public CarritoDeCompras(int idNumericoDeCompra)
+
+        public void borrarProducto()
         {
-            this.idNumericoDeCompra = idNumericoDeCompra;
+            using (var context = new ECommerceContext())
+            {
+                this.producto = null;
+
+                context.CarritoDeCompras.Update(this);
+                context.SaveChanges();
+            }
         }
     }
 }

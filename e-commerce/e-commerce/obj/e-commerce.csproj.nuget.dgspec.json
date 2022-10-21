@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Juan Pablo Turner\\Desktop\\2do Cuatrimestre\\PNT1\\e-commerce\\e-commerce\\e-commerce\\e-commerce.csproj": {}
+    "C:\\Users\\Tomás\\OneDrive - Universidad Nacional de La Matanza\\Documentos\\0RT\\nuevasTec1\\e-commerce\\e-commerce\\e-commerce\\e-commerce.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Juan Pablo Turner\\Desktop\\2do Cuatrimestre\\PNT1\\e-commerce\\e-commerce\\e-commerce\\e-commerce.csproj": {
+    "C:\\Users\\Tomás\\OneDrive - Universidad Nacional de La Matanza\\Documentos\\0RT\\nuevasTec1\\e-commerce\\e-commerce\\e-commerce\\e-commerce.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Juan Pablo Turner\\Desktop\\2do Cuatrimestre\\PNT1\\e-commerce\\e-commerce\\e-commerce\\e-commerce.csproj",
+        "projectUniqueName": "C:\\Users\\Tomás\\OneDrive - Universidad Nacional de La Matanza\\Documentos\\0RT\\nuevasTec1\\e-commerce\\e-commerce\\e-commerce\\e-commerce.csproj",
         "projectName": "e-commerce",
-        "projectPath": "C:\\Users\\Juan Pablo Turner\\Desktop\\2do Cuatrimestre\\PNT1\\e-commerce\\e-commerce\\e-commerce\\e-commerce.csproj",
-        "packagesPath": "C:\\Users\\Juan Pablo Turner\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Juan Pablo Turner\\Desktop\\2do Cuatrimestre\\PNT1\\e-commerce\\e-commerce\\e-commerce\\obj\\",
+        "projectPath": "C:\\Users\\Tomás\\OneDrive - Universidad Nacional de La Matanza\\Documentos\\0RT\\nuevasTec1\\e-commerce\\e-commerce\\e-commerce\\e-commerce.csproj",
+        "packagesPath": "C:\\Users\\Tomás\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tomás\\OneDrive - Universidad Nacional de La Matanza\\Documentos\\0RT\\nuevasTec1\\e-commerce\\e-commerce\\e-commerce\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Juan Pablo Turner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tomás\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -43,6 +43,18 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

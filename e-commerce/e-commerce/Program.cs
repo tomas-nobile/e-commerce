@@ -6,7 +6,11 @@ namespace e_commerce
     {
         static void Main(string[] args)
         {
-            Console.ReadKey();
+            Usuario user= Usuario.agregarUsuario(42077878,"tomas","nobile","nobiletomas@gmail.com",1169008951);
+
+            user.agregarProducto(100, "balon", "pelota de basket");
+
+            user.agregarProductoCarrito(2);
         }
     }
 }
